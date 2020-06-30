@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeTests]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.selenium.library.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="SmokeTests(failed)">
+    <parameter name="password" value="admin123"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="com.selenium.test.scripts.AddAEmployee">
+        <methods>
+          <include name="set_up"/>
+          <include name="afterAllTests"/>
+          <include name="addEmp"/>
+          <include name="beforeAllTests"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.selenium.test.scripts.AddAEmployee -->
+    </classes>
+  </test> <!-- SmokeTests(failed) -->
+</suite> <!-- Failed suite [SmokeTests] -->

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="21" total="31" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-30T23:31:54Z" name="SmokeTest" finished-at="2020-06-30T23:37:30Z" duration-ms="335348">
+    <groups>
+    </groups>
+    <test started-at="2020-06-30T23:31:54Z" name="SmokeTest" finished-at="2020-06-30T23:37:30Z" duration-ms="335348">
+      <class name="com.selenium.test.scripts.ParamTest">
+        <test-method is-config="true" signature="beforeAllTests()[pri:0, instance:com.selenium.test.scripts.ParamTest@1aa7ecca]" started-at="2020-06-30T23:33:05Z" name="beforeAllTests" finished-at="2020-06-30T23:33:05Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTests -->
+        <test-method is-config="true" signature="set_up()[pri:0, instance:com.selenium.test.scripts.ParamTest@1aa7ecca]" started-at="2020-06-30T23:33:05Z" name="set_up" finished-at="2020-06-30T23:33:10Z" duration-ms="5365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method signature="parameter(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.ParamTest@1aa7ecca]" started-at="2020-06-30T23:33:10Z" name="parameter" finished-at="2020-06-30T23:33:18Z" duration-ms="8304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameter -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.test.scripts.ParamTest@1aa7ecca]" started-at="2020-06-30T23:33:19Z" name="tearDown" finished-at="2020-06-30T23:33:28Z" duration-ms="9066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=parameter status=SUCCESS method=ParamTest.parameter(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.ParamTest@1aa7ecca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterAllTests()[pri:0, instance:com.selenium.test.scripts.ParamTest@1aa7ecca]" started-at="2020-06-30T23:33:28Z" name="afterAllTests" finished-at="2020-06-30T23:33:28Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTests -->
+      </class> <!-- com.selenium.test.scripts.ParamTest -->
+      <class name="com.selenium.test.scripts.AddAEmployee">
+        <test-method is-config="true" signature="beforeAllTests()[pri:0, instance:com.selenium.test.scripts.AddAEmployee@12468a38]" started-at="2020-06-30T23:31:54Z" name="beforeAllTests" finished-at="2020-06-30T23:31:54Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTests -->
+        <test-method is-config="true" signature="set_up()[pri:0, instance:com.selenium.test.scripts.AddAEmployee@12468a38]" started-at="2020-06-30T23:31:54Z" name="set_up" finished-at="2020-06-30T23:32:01Z" duration-ms="6269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method signature="addEmp()[pri:0, instance:com.selenium.test.scripts.AddAEmployee@12468a38]" started-at="2020-06-30T23:32:01Z" name="addEmp" finished-at="2020-06-30T23:32:56Z" duration-ms="55069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.test.scripts.AddAEmployee@12468a38]" started-at="2020-06-30T23:32:56Z" name="tearDown" finished-at="2020-06-30T23:33:05Z" duration-ms="9096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addEmp status=SUCCESS method=AddAEmployee.addEmp()[pri:0, instance:com.selenium.test.scripts.AddAEmployee@12468a38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterAllTests()[pri:0, instance:com.selenium.test.scripts.AddAEmployee@12468a38]" started-at="2020-06-30T23:33:05Z" name="afterAllTests" finished-at="2020-06-30T23:33:05Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTests -->
+      </class> <!-- com.selenium.test.scripts.AddAEmployee -->
+      <class name="com.selenium.test.scripts.SmokeTests">
+        <test-method is-config="true" signature="beforeAllTests()[pri:0, instance:com.selenium.test.scripts.SmokeTests@5876a9af]" started-at="2020-06-30T23:35:56Z" name="beforeAllTests" finished-at="2020-06-30T23:35:56Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTests -->
+        <test-method is-config="true" signature="set_up()[pri:0, instance:com.selenium.test.scripts.SmokeTests@5876a9af]" started-at="2020-06-30T23:35:56Z" name="set_up" finished-at="2020-06-30T23:36:02Z" duration-ms="5358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method signature="empNumbers()[pri:14, instance:com.selenium.test.scripts.SmokeTests@5876a9af]" started-at="2020-06-30T23:36:02Z" name="empNumbers" finished-at="2020-06-30T23:36:20Z" duration-ms="17903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- empNumbers -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.test.scripts.SmokeTests@5876a9af]" started-at="2020-06-30T23:36:20Z" name="tearDown" finished-at="2020-06-30T23:36:29Z" duration-ms="9097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=empNumbers status=SUCCESS method=SmokeTests.empNumbers()[pri:14, instance:com.selenium.test.scripts.SmokeTests@5876a9af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="set_up()[pri:0, instance:com.selenium.test.scripts.SmokeTests@5876a9af]" started-at="2020-06-30T23:36:29Z" name="set_up" finished-at="2020-06-30T23:36:34Z" duration-ms="5335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method signature="taxId()[pri:15, instance:com.selenium.test.scripts.SmokeTests@5876a9af]" started-at="2020-06-30T23:36:34Z" name="taxId" finished-at="2020-06-30T23:36:52Z" duration-ms="17464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taxId -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.test.scripts.SmokeTests@5876a9af]" started-at="2020-06-30T23:36:52Z" name="tearDown" finished-at="2020-06-30T23:37:01Z" duration-ms="9086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=taxId status=SUCCESS method=SmokeTests.taxId()[pri:15, instance:com.selenium.test.scripts.SmokeTests@5876a9af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="set_up()[pri:0, instance:com.selenium.test.scripts.SmokeTests@5876a9af]" started-at="2020-06-30T23:37:01Z" name="set_up" finished-at="2020-06-30T23:37:06Z" duration-ms="5335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method signature="version()[pri:20, instance:com.selenium.test.scripts.SmokeTests@5876a9af]" started-at="2020-06-30T23:37:06Z" name="version" finished-at="2020-06-30T23:37:21Z" duration-ms="14526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- version -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.test.scripts.SmokeTests@5876a9af]" started-at="2020-06-30T23:37:21Z" name="tearDown" finished-at="2020-06-30T23:37:30Z" duration-ms="9103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=version status=SUCCESS method=SmokeTests.version()[pri:20, instance:com.selenium.test.scripts.SmokeTests@5876a9af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterAllTests()[pri:0, instance:com.selenium.test.scripts.SmokeTests@5876a9af]" started-at="2020-06-30T23:37:30Z" name="afterAllTests" finished-at="2020-06-30T23:37:30Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTests -->
+      </class> <!-- com.selenium.test.scripts.SmokeTests -->
+      <class name="com.selenium.test.scripts.LoginInTest">
+        <test-method is-config="true" signature="beforeAllTests()[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333]" started-at="2020-06-30T23:33:28Z" name="beforeAllTests" finished-at="2020-06-30T23:33:28Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTests -->
+        <test-method is-config="true" signature="set_up()[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333]" started-at="2020-06-30T23:33:28Z" name="set_up" finished-at="2020-06-30T23:33:34Z" duration-ms="5535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333]" started-at="2020-06-30T23:33:34Z" name="login" data-provider="DataBase" finished-at="2020-06-30T23:33:39Z" duration-ms="4978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[armin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333]" started-at="2020-06-30T23:33:39Z" name="tearDown" finished-at="2020-06-30T23:33:48Z" duration-ms="9197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginInTest.login(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="set_up()[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333]" started-at="2020-06-30T23:33:48Z" name="set_up" finished-at="2020-06-30T23:33:53Z" duration-ms="5351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333]" started-at="2020-06-30T23:33:53Z" name="login" data-provider="DataBase" finished-at="2020-06-30T23:33:58Z" duration-ms="4865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aliii]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333]" started-at="2020-06-30T23:33:58Z" name="tearDown" finished-at="2020-06-30T23:34:07Z" duration-ms="9134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginInTest.login(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="set_up()[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333]" started-at="2020-06-30T23:34:07Z" name="set_up" finished-at="2020-06-30T23:34:13Z" duration-ms="5372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333]" started-at="2020-06-30T23:34:13Z" name="login" data-provider="DataBase" finished-at="2020-06-30T23:34:18Z" duration-ms="4886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fkds44]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333]" started-at="2020-06-30T23:34:18Z" name="tearDown" finished-at="2020-06-30T23:34:27Z" duration-ms="9116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginInTest.login(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="set_up()[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333]" started-at="2020-06-30T23:34:27Z" name="set_up" finished-at="2020-06-30T23:34:32Z" duration-ms="5388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333]" started-at="2020-06-30T23:34:32Z" name="login" data-provider="DataBase" finished-at="2020-06-30T23:34:37Z" duration-ms="4986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[weddr556]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333]" started-at="2020-06-30T23:34:37Z" name="tearDown" finished-at="2020-06-30T23:34:46Z" duration-ms="9109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginInTest.login(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="set_up()[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333]" started-at="2020-06-30T23:34:47Z" name="set_up" finished-at="2020-06-30T23:34:52Z" duration-ms="5391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method signature="newEmp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333]" started-at="2020-06-30T23:34:52Z" name="newEmp" data-provider="OrangeHRM" finished-at="2020-06-30T23:35:47Z" duration-ms="54944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hana]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Josey]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Alex]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Father]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Jasmin]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Total]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[55000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newEmp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333]" started-at="2020-06-30T23:35:47Z" name="tearDown" finished-at="2020-06-30T23:35:56Z" duration-ms="9108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=newEmp status=SUCCESS method=LoginInTest.newEmp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterAllTests()[pri:0, instance:com.selenium.test.scripts.LoginInTest@59309333]" started-at="2020-06-30T23:35:56Z" name="afterAllTests" finished-at="2020-06-30T23:35:56Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTests -->
+      </class> <!-- com.selenium.test.scripts.LoginInTest -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- SmokeTest -->
+</testng-results>

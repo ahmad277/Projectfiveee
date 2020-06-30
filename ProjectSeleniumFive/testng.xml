@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTest">
+	<listeners>
+		<!-- <listener class-name = "com.selenium.library.Listener"/> -->
+		<listener class-name="com.selenium.library.ExtentReporterNG" />
+	</listeners>
+	<!--  <test thread-count="10" parallel="methods" name="test"> -->
+	<test name="SmokeTest">
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="admin123" />
+		<groups>
+			<!-- <run> <include name="credit"/> </run> -->
+		</groups>
+		<classes>
+			<class name="com.selenium.test.scripts.AddAEmployee"/>
+			<class name="com.selenium.test.scripts.ParamTest"/>
+			<class name="com.selenium.test.scripts.LoginInTest"/>
+			<class name="com.selenium.test.scripts.SmokeTests"/>
+			
+
+		</classes>
+	</test>
+</suite>

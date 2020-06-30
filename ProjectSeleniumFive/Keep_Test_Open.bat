@@ -1,0 +1,1 @@
+cmd /k Run_Test_CommendLine.bat
