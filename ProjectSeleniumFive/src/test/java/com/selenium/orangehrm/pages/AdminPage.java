@@ -20,6 +20,7 @@ public class AdminPage extends Base {
 			WebElement job = driver.findElement(By.id("menu_admin_Job"));
 			selLib.moveMouseToElement(job);
 			WebElement jobTitle = driver.findElement(By.id("menu_admin_viewJobTitle"));
+			System.out.println("Hi");
 			selLib.clickButton(jobTitle);
 		} catch (Exception e) {
 			logger.error("Error: ", e);
